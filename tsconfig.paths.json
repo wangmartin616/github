@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@components": ["components/index.ts"],
+      "@configs": ["configs/index.ts"],
+      "@graphql/*": ["graphql/*"],
+      "@routes/*": ["routes/*"],
+      "@services/*": ["services/*"]
+    }
+  }
+}
